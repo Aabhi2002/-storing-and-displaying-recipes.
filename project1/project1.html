@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Manager</title>
+    <link rel="stylesheet" href="project1.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Recipe Manager</h1>
+        <form id="recipe-form">
+            <input type="text" id="recipe-name" placeholder="Recipe Name" required>
+            <textarea id="recipe-ingredients" placeholder="Ingredients" required></textarea>
+            <input type="file" id="recipe-image" accept="image/*">
+            <button type="submit">Add Recipe</button>
+        </form>
+        
+        <h2>Your Recipes</h2>
+        <div id="recipe-list"></div>
+    </div>
+    <script src="project1.js"></script>
+</body>
+</html>
